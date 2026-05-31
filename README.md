@@ -50,16 +50,23 @@ I am a software engineer and builder dedicated to creating robust, high-performa
 
 ---
 
-### 📊 GitHub Metrics & Activity
+### 🖥️ System Console
 
-<p align="left">
-  <a href="https://github.com/Hubrisdog">
-    <img src="https://github-readme-stats.shion.dev/api?username=Hubrisdog&show_icons=true&title_color=a855f7&icon_color=c084fc&text_color=cbd5e1&bg_color=0f172a&hide_border=true&count_private=true" alt="Hubris's GitHub stats" height="180">
-  </a>
-  <a href="https://github.com/Hubrisdog">
-    <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Hubrisdog&layout=compact&title_color=06b6d4&text_color=cbd5e1&bg_color=0f172a&hide_border=true&langs_count=6" alt="Hubris's Top Languages" height="180">
-  </a>
-</p>
+```bash
+$ neofetch --user hubris
+
+   `.-://///:-.`        hubris@security-ops
+  `///////////////.`     -------------------
+ `///////////////////`   OS: Hubris Hardened Linux (Enterprise Edition)
+ ://///////````///////:  Host: Custom AI Core & Systems Lab
+ ://////`        `////:  Kernel: 6.x-agentic-secure-kernel
+ :///`              `/:  Uptime: 24/7/365
+ `/`                     Shell: zsh (Systems Architecture & Security)
+                         Focus: Full-Stack Engineering | InfoSec | System Automation
+                         Core Stack: TypeScript / JavaScript / Python / PostgreSQL
+                         Specialties: High-scale SaaS, Threat Intel, Secure Integration
+                         Status: Active. Listening on port 443...
+```
 
 ---
 
