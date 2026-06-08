@@ -12,7 +12,7 @@ I design and build software that replaces manual friction with high-performance,
 > ### ⚡ Available for Freelance & Collaboration
 > I am currently open to select freelance projects, architectural consulting, and contract engagements.  
 > **Have a complex workflow that needs automating, a database bottleneck to solve, or a SaaS platform to build?**  
-> 📧 [Reach out to discuss your project: alphllppegarado@gmail.com](mailto:alphllppegarado@gmail.com)
+> 📧 [Reach out to discuss your project](mailto:alphllppegarado@gmail.com)
 
 ---
 
@@ -53,11 +53,6 @@ I design and build software that replaces manual friction with high-performance,
 | **Security & DevOps** | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) |
 
 ---
-
-## 🎯 Current Operational Focus
-
-- **Blending Systems Theory & Production Implementation**: Currently completing a BS in Information Technology while building and maintaining production SaaS architectures.
-- **Continuous Shipping**: Implementing localized Retrieval-Augmented Generation (RAG) for security telemetry, optimized DB indexing, and zero-trust multi-tenant systems.
 
 <p align="center">
   <i>“Building tomorrow's secure systems, one repository at a time.”</i>
