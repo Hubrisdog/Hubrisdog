@@ -4,9 +4,10 @@
 
 # Hey, I'm Phillippe (Hubris) 👋
 
-**Systems Engineer & Architect specializing in offline-resilient SaaS engines, air-gapped threat intelligence platforms, and automated workflow orchestrations.**
+**Software Engineer focused on automation, cybersecurity, and business systems.**
 
-I design and build software that replaces manual friction with high-performance, automated business systems. My work focuses on database concurrency, multi-tenant security, and robust offline-first synchronization.
+I build software that helps businesses automate workflows, manage operations, and replace manual processes with reliable, scalable systems.
+My projects explore SaaS platforms, threat intelligence tools, inventory systems, workflow automation, and security-focused applications.
 
 > [!NOTE]
 > ### ⚡ Available for Freelance & Collaboration
