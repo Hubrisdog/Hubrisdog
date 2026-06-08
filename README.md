@@ -43,27 +43,6 @@ I design and build software that replaces manual friction with high-performance,
 
 ---
 
-## 🧠 Deep-Dive Architecture & Core Challenges
-
-These represent the specific engineering challenges solved within the featured systems:
-
-### 🪐 LogiFlow Hub
-- Engineered a **GAAP-compliant FIFO Accounting Ledger** that prevents valuation drift across split-batch consume operations, computing dynamic Cost of Goods Sold (COGS).
-- Built an **Offline-Resilient Sync Queue** with a custom `isReconciling` mutex lock to prevent network reconnect storms from executing out-of-order writes.
-- Secured multi-tenancy at the database layer using strict **PostgreSQL Row Level Security (RLS)** rather than relying on vulnerable client-side scoping.
-
-### 🛡️ Aegis Threat Intel
-- Tuned **SQLite WAL journaling** and busy timeouts (`busy_timeout = 5000`) to guarantee background threat ingestion routines never lock or block real-time analyst searches.
-- Implemented an **FTS5 Search Fallback** mechanism that handles special character syntax failures (like dots in IP addresses) by gracefully falling back to wildcard `LIKE` indexing.
-- Created a custom **automated defanging parser** for secure threat reporting, transforming live indicators (`evil.com` ➡️ `evil[.]com`) before data exports.
-
-### 📅 Nexa
-- Designed a **Workload-Balanced Round-Robin Algorithm** that calculates active provider loads and routes booking leads to the least-busy staff member.
-- Built a secure **Outbound Webhook Pipeline** using **HMAC SHA256 header signatures** to authenticate event payloads dispatched to external developer targets.
-- Developed a dynamic **Domain & SSL Wizard** allowing custom branding isolation, custom CSS injection (`--primary-color`), and simulated Let's Encrypt DNS checks.
-
----
-
 ## 🛠️ Tech Stack & Arsenal
 
 | Category | Tools & Technologies |
