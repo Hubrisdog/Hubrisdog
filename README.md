@@ -16,6 +16,54 @@ I design and build software that replaces manual friction with high-performance,
 
 ---
 
+## 🚀 Featured Engineering
+
+<table border="0">
+  <tr>
+    <td width="33.3%" valign="top">
+      <h4>🛡️ <a href="https://github.com/Hubrisdog/aegis-threat-intel">aegis-threat-intel</a></h4>
+      <p>Self-hosted, privacy-first threat intelligence platform (TIP) for local IOC correlation and AI analysis.</p>
+      <img src="https://img.shields.io/badge/Security-Threat_Intel-red?style=flat-square" alt="Security badge">
+      <img src="https://img.shields.io/badge/AI-Analysis-purple?style=flat-square" alt="AI badge">
+    </td>
+    <td width="33.3%" valign="top">
+      <h4>📦 <a href="https://github.com/Hubrisdog/logiflow-hub">logiflow-hub</a></h4>
+      <p>Premium enterprise-grade inventory intelligence and logistics orchestration platform built with React, TypeScript, and Supabase.</p>
+      <img src="https://img.shields.io/badge/Stack-React_%7C_Supabase-blue?style=flat-square" alt="Stack badge">
+      <img src="https://img.shields.io/badge/Enterprise-SaaS-green?style=flat-square" alt="SaaS badge">
+    </td>
+    <td width="33.3%" valign="top">
+      <h4>📅 <a href="https://github.com/Hubrisdog/nexa">nexa</a></h4>
+      <p>Multi-tenant scheduling and CRM platform with round-robin lead allocation and OAuth sync.</p>
+      <img src="https://img.shields.io/badge/Backend-Laravel_10-red?style=flat-square" alt="Backend badge">
+      <img src="https://img.shields.io/badge/Frontend-Vue_3-green?style=flat-square" alt="Frontend badge">
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🧠 Deep-Dive Architecture & Core Challenges
+
+These represent the specific engineering challenges solved within the featured systems:
+
+### 🪐 LogiFlow Hub
+- Engineered a **GAAP-compliant FIFO Accounting Ledger** that prevents valuation drift across split-batch consume operations, computing dynamic Cost of Goods Sold (COGS).
+- Built an **Offline-Resilient Sync Queue** with a custom `isReconciling` mutex lock to prevent network reconnect storms from executing out-of-order writes.
+- Secured multi-tenancy at the database layer using strict **PostgreSQL Row Level Security (RLS)** rather than relying on vulnerable client-side scoping.
+
+### 🛡️ Aegis Threat Intel
+- Tuned **SQLite WAL journaling** and busy timeouts (`busy_timeout = 5000`) to guarantee background threat ingestion routines never lock or block real-time analyst searches.
+- Implemented an **FTS5 Search Fallback** mechanism that handles special character syntax failures (like dots in IP addresses) by gracefully falling back to wildcard `LIKE` indexing.
+- Created a custom **automated defanging parser** for secure threat reporting, transforming live indicators (`evil.com` ➡️ `evil[.]com`) before data exports.
+
+### 📅 Nexa
+- Designed a **Workload-Balanced Round-Robin Algorithm** that calculates active provider loads and routes booking leads to the least-busy staff member.
+- Built a secure **Outbound Webhook Pipeline** using **HMAC SHA256 header signatures** to authenticate event payloads dispatched to external developer targets.
+- Developed a dynamic **Domain & SSL Wizard** allowing custom branding isolation, custom CSS injection (`--primary-color`), and simulated Let's Encrypt DNS checks.
+
+---
+
 ## 🛠️ Tech Stack & Arsenal
 
 | Category | Tools & Technologies |
@@ -27,39 +75,11 @@ I design and build software that replaces manual friction with high-performance,
 
 ---
 
-## 🚀 Featured Engineering Systems
-
-These aren't boilerplate templates. Below are production-grade systems built to solve complex architectural challenges:
-
-### 🪐 [LogiFlow Hub](https://github.com/Hubrisdog/logiflow-hub)
-*Enterprise-grade inventory intelligence and logistics orchestration engine.*
-- **Tech Stack**: React 18, TypeScript, React Native (Expo), Supabase, PostgreSQL.
-- **The Hard Problems Solved**:
-  - Engineered a **GAAP-compliant FIFO Accounting Ledger** that prevents valuation drift across split-batch consume operations, computing dynamic Cost of Goods Sold (COGS).
-  - Built an **Offline-Resilient Sync Queue** with a custom `isReconciling` mutex lock to prevent network reconnect storms from executing out-of-order writes.
-  - Secured multi-tenancy at the database layer using strict **PostgreSQL Row Level Security (RLS)** rather than relying on vulnerable client-side scoping.
-
-### 🛡️ [Aegis Threat Intel](https://github.com/Hubrisdog/aegis-threat-intel)
-*Self-hosted, air-gapped Threat Intelligence Platform (TIP) with cognitive AI analysis.*
-- **Tech Stack**: Vue 3, Bun Runtime, SQLite (WAL / FTS5), Python, Anthropic / Ollama.
-- **The Hard Problems Solved**:
-  - Tuned **SQLite WAL journaling** and busy timeouts (`busy_timeout = 5000`) to guarantee background threat ingestion routines never lock or block real-time analyst searches.
-  - Implemented an **FTS5 Search Fallback** mechanism that handles special character syntax failures (like dots in IP addresses) by gracefully falling back to wildcard `LIKE` indexing.
-  - Created a custom **automated defanging parser** for secure threat reporting, transforming live indicators (`evil.com` ➡️ `evil[.]com`) before data exports.
-
-### 📅 [Nexa](https://github.com/Hubrisdog/nexa)
-*Multi-tenant scheduling and sales CRM platform.*
-- **Tech Stack**: Laravel 10, Vue 3 SPA, Vite, Google Calendar OAuth.
-- **The Hard Problems Solved**:
-  - Designed a **Workload-Balanced Round-Robin Algorithm** that calculates active provider loads and routes booking leads to the least-busy staff member.
-  - Built a secure **Outbound Webhook Pipeline** using **HMAC SHA256 header signatures** to authenticate event payloads dispatched to external developer targets.
-  - Developed a dynamic **Domain & SSL Wizard** allowing custom branding isolation, custom CSS injection (`--primary-color`), and simulated Let's Encrypt DNS checks.
-
----
-
 ## 🎯 Current Operational Focus
 
 - **Blending Systems Theory & Production Implementation**: Currently completing a BS in Information Technology while building and maintaining production SaaS architectures.
 - **Continuous Shipping**: Implementing localized Retrieval-Augmented Generation (RAG) for security telemetry, optimized DB indexing, and zero-trust multi-tenant systems.
 
-> *Turning complex operational friction into clean, reliable, and auditable software.*
+<p align="center">
+  <i>“Building tomorrow's secure systems, one repository at a time.”</i>
+</p>
