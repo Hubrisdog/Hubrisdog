@@ -12,7 +12,7 @@ I design and build software that replaces manual friction with high-performance,
 > ### ⚡ Available for Freelance & Collaboration
 > I am currently open to select freelance projects, architectural consulting, and contract engagements.  
 > **Have a complex workflow that needs automating, a database bottleneck to solve, or a SaaS platform to build?**  
-> 📧 [Reach out to discuss your project: alphllppegarado@gmail.com](mailto:alphllppegarado@gmail.com)
+> 📧 [Reach out to discuss your project:](mailto:alphllppegarado@gmail.com)
 
 ---
 
