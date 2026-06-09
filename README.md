@@ -54,11 +54,6 @@ I design and build software that replaces manual friction with high-performance,
 
 ---
 
-## 🎯 Current Operational Focus
-
-- **Blending Systems Theory & Production Implementation**: Currently completing a BS in Information Technology while building and maintaining production SaaS architectures.
-- **Continuous Shipping**: Implementing localized Retrieval-Augmented Generation (RAG) for security telemetry, optimized DB indexing, and zero-trust multi-tenant systems.
-
 <p align="center">
   <i>“Building tomorrow's secure systems, one repository at a time.”</i>
 </p>
